@@ -74,4 +74,34 @@
     margin-top: 14px;
 }
 
-/*  */
+/* my plans section */
+
+.plans-details{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+    margin-top: 60px;
+    margin-bottom: 130px;
+}
+
+.plans-heading{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.plans-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+.plans-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* last section */
+
