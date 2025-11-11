@@ -1,107 +1,110 @@
-
-*{
-    margin: 0;
-    font-family: "Work Sans", sans-serif;
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
 }
 /* shared section */
-.primary-btn{
-    font-size: 20px;
-    font-weight: 600;
-    color: #FFFFFF;
-    background-color: #F15B22;
-    margin-right: 150px;
-    margin-top: 32px;
-    padding: 20px 25px;
-    border: none;
-    border-radius: 5px;
+.primary-btn {
+  font-size: 20px;
+  font-weight: 600;
+  color: #005FAC;
+  background-color: #ffffff;
+  margin-top: 32px;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 5px;
 }
 
 /* header section */
-.header{
-    background-image:url('../images/banner/banner2.png') ;
-    width: 100%;
-    height: 808px;
+.header {
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+  text-align: end;
 }
 
-.header-content{
-    text-align:right;
-    
+.header-content {
+  padding-top: 150px;
+  padding-right: 150px;
+  padding-left: 600px;
 }
 
-.header-title{
-    color: #151414;
-    font-weight: bold;
-    font-size: 65px;
-    padding-top: 200px;
-    padding-left: 500px;
-    padding-right: 150px;
+.header-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 65px;
 }
-.header-description{
-    color: #444343;
-    font-size: 16px;
-    line-height: 26px;
-    padding-right: 150px;
-    padding-left: 500px;
-    margin-top: 24px;
+.header-description {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 24px;
 }
 
 /* main section */
 
 /* failures section */
-.failures{
-    display: flex;
-    align-items: center;
-    margin: 130px ;
-    
+.failures {
+  display: flex;
+  align-items: center;
+  margin: 130px;
 }
-.failures-img{
-    width: 500px;
-    height: 700px;
-    margin-right: 87px;
+.failures-img {
+  width: 500px;
+  height: 700px;
+  margin-right: 87px;
 }
-.failures-title{
-    color: #151414;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 24px;
+.failures-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
 }
-.failures-description, .failures-list{
-    color: #444343;
-    font-size: 16px;
-    line-height: 26px;
+.failures-description,
+.failures-list {
+  color: #444343;
+  font-size: 16px;
+  line-height: 26px;
 }
-.failures-list{
-    margin-top: 14px;
+.failures-list {
+  margin-top: 14px;
 }
 
 /* my plans section */
 
-.plans-details{
-    display:flex;
-    justify-content: center;
-    text-align: center;
-    gap: 80px;
-    margin-top: 60px;
-    margin-bottom: 130px;
+.plans-details {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 80px;
+  margin-top: 60px;
+  margin-bottom: 130px;
 }
 
-.plans-heading{
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
+.plans-heading {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
 }
-.plans-title{
-    color: #151414;
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 30px;
-    margin-bottom: 16px;
+.plans-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 16px;
 }
-.plans-description{
-    color: #737272;
-    font-size: 25px;
-    font-weight: 500;
+.plans-description {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
 }
 
-/* last section */
+/* mindset section */
 
+.mindset {
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
