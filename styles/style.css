@@ -125,4 +125,51 @@
 }
 
 /* footer section */
+.footer{
+  background-color: #151414;
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  padding: 130px 150px;
+}
 
+.future-heading{
+  font-size: 45px;
+  font-weight: 700;
+  color: #F8F8F8;
+}
+.future-description{
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.future-img{
+  margin-right: 20px;
+}
+
+.subscribe-heading{
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+}
+#email{
+  color: #F3F3F3;
+  background-color:#151414;
+  font-size: 18px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 20px 80px 20px 20px;
+}
+.subscribe-btn{
+  color: #ffffff;
+  background-color: #005FAC;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 36px;
+  border: none;
+  border-radius: 8px;
+}
